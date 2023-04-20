@@ -6,9 +6,9 @@ This browser extension enables users to capture and encode web content or select
 
 - [Features](#features)
   - [Optional Features](#optional-features)
-- [Development Steps](#development-steps)
 - [User Experience](#user-experience)
 - [Example Use Case: Art History Student](#example-use-case-art-history-student)
+- [Development Steps](#development-steps)
 - [Contribute](#contribute)
 
 ## Features
@@ -28,39 +28,6 @@ This browser extension enables users to capture and encode web content or select
 - Encoder Options: Use open source or API-based encoder.
 - Retrieval Only vs. LLM Interpretation: Choose retrieval only or language model interpretation.
 - Selective Deletion: Delete specific embeddings and associated metadata.
-
-## Development Steps
-
-- **Browser Extension:**
-  - Create an extension compatible with browsers (e.g., Chrome, Firefox).
-  - Enable scraping of web page content or user-selected text.
-  - Add a user interface with an activation button.
-
-- **Embeddings Encoder:**
-  - Select an embedding model (e.g., Word2Vec, BERT) and decide on pre-trained or custom embeddings.
-  - Implement encoding to convert content into embeddings.
-
-- **Database:**
-  - Design a database for storing embeddings, metadata (e.g., link references), etc.
-  - Decide on database location (e.g., local storage, cloud) and ensure security.
-
-- **Chatbot and Search:**
-  - Build a chatbot interface for user queries.
-  - Implement similarity search to find related content in the database.
-  - Integrate an external language model (e.g., GPT-4) for query interpretation.
-
-- **User Experience and Privacy:**
-  - Create a user-friendly interface for installation, database management, and chatbot interaction.
-  - Address privacy concerns and obtain user consent for data usage.
-
-- **Testing and Deployment:**
-  - Test the extension for functionality, performance, and usability.
-  - Fix bugs and issues found during testing.
-  - Deploy on browser extension marketplaces (e.g., Chrome Web Store, Firefox Add-ons).
-
-- **Documentation and Support:**
-  - Provide documentation for installation, usage, and troubleshooting.
-  - Offer support channels (e.g., email, forum) for user assistance and issue reporting.
 
 ## User Experience
 
@@ -104,7 +71,41 @@ As an art history student researching Renaissance painters, use the extension to
 - Make connections between painters, techniques, and movements with easy access to information.
 - Use insights for class discussions, essays, and presentations on Renaissance art.
 
-The extension supports your academic research and helps you gain valuable insights.
+The extension supports your academic research and helps you gain valuable
+insights.
+
+## Development Steps
+
+- **Browser Extension:**
+  - Create an extension compatible with browsers (e.g., Chrome, Firefox).
+  - Enable scraping of web page content or user-selected text.
+  - Add a user interface with an activation button.
+
+- **Embeddings Encoder:**
+  - Select an embedding model (e.g., Word2Vec, BERT) and decide on pre-trained or custom embeddings.
+  - Implement encoding to convert content into embeddings.
+
+- **Database:**
+  - Design a database for storing embeddings, metadata (e.g., link references), etc.
+  - Decide on database location (e.g., local storage, cloud) and ensure security.
+
+- **Chatbot and Search:**
+  - Build a chatbot interface for user queries.
+  - Implement similarity search to find related content in the database.
+  - Integrate an external language model (e.g., GPT-4) for query interpretation.
+
+- **User Experience and Privacy:**
+  - Create a user-friendly interface for installation, database management, and chatbot interaction.
+  - Address privacy concerns and obtain user consent for data usage.
+
+- **Testing and Deployment:**
+  - Test the extension for functionality, performance, and usability.
+  - Fix bugs and issues found during testing.
+  - Deploy on browser extension marketplaces (e.g., Chrome Web Store, Firefox Add-ons).
+
+- **Documentation and Support:**
+  - Provide documentation for installation, usage, and troubleshooting.
+  - Offer support channels (e.g., email, forum) for user assistance and issue reporting.
 
 ## Contribute
 
