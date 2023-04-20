@@ -1,20 +1,21 @@
 # Personal Browsing Embeddings Extension
 
-Welcome to the GitHub repository for the Personal Browsing Embeddings Extension! This browser extension allows users to selectively scrape and encode web page content or highlighted sections, and store the generated embeddings in a personal database. Additionally, the extension includes a chatbot interface for querying the local embeddings database, performing similarity searches, and leveraging language models for content interpretation. Enhance your browsing experience and retrieve valuable information with ease!
+Welcome to the GitHub repository for the Personal Browsing Embeddings Extension!
+This browser extension allows users to selectively scrape and encode web page
+content or highlighted sections, and store the generated embeddings in a
+personal database. Additionally, the extension includes a chatbot interface for
+querying the local embeddings database, performing similarity searches, and
+leveraging language models (e.g., GPT-4) for content interpretation. Enhance
+your browsing experience and retrieve valuable information from your previous research.
 
 ## Table of Contents
 
-- [Objective](#objective)
 - [Features](#features)
   - [Optional Features](#optional-features)
 - [Development Steps](#development-steps)
 - [User Experience](#user-experience)
 - [Example Use Case: Art History Student](#example-use-case-art-history-student)
 - [Contribute](#contribute)
-
-## Objective
-
-Develop a browser extension that enables users to selectively scrape and encode web page content or selections, and store the generated embeddings in a personal database. Additionally, the extension will include a chatbot that can query the local embeddings database for similarity searches and pass the query, along with similar results, to a language model (e.g., GPT-4) for interpretation.
 
 ## Features
 
