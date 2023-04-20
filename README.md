@@ -1,12 +1,6 @@
 # Personal Browsing Embeddings Extension
 
-Welcome to the GitHub repository for the Personal Browsing Embeddings Extension!
-This browser extension allows users to selectively scrape and encode web page
-content or highlighted sections, and store the generated embeddings in a
-personal database. Additionally, the extension includes a chatbot interface for
-querying the local embeddings database, performing similarity searches, and
-leveraging language models (e.g., GPT-4) for content interpretation. Enhance
-your browsing experience and retrieve valuable information from your previous research.
+This browser extension enables users to capture and encode web content or selections, creating a personal embeddings database. The extension features a chatbot for searching the database, finding similar content, and using language models (e.g., GPT-4) for analysis. Use it to efficiently access and interpret past research.
 
 ## Table of Contents
 
@@ -37,83 +31,81 @@ your browsing experience and retrieve valuable information from your previous re
 
 ## Development Steps
 
-- Browser Extension Development
-  - Develop a browser extension compatible with popular web browsers (e.g., Chrome, Firefox).
-  - Implement functionality for scraping entire web page content or user-selected content.
-  - Provide a user interface for interacting with the extension, including an activation button.
-- Embeddings Encoder
-  - Choose an appropriate embedding model (e.g., Word2Vec, BERT) and decide whether to use pre-trained embeddings or train a custom model.
-  - Implement the encoding process to convert scraped content into embeddings.
-- Personal Browsing Embeddings Database
-  - Design a database structure for efficient storage and retrieval of embeddings, metadata (e.g., link references), and any other relevant information.
-  - Determine where the database will be stored (e.g., local storage, cloud storage) and ensure data security.
-- Chatbot and Similarity Search
-  - Develop a chatbot interface that allows users to interact with the extension and perform queries.
-  - Implement similarity search functionality to find content similar to the user's query within the embeddings database.
-  - Establish communication with an external language model (e.g., GPT-4) to provide comprehensive interpretations of queries and similar results.
-- User Experience and Privacy
-  - Design an intuitive user interface for installing the extension, managing the embeddings database, and interacting with the chatbot.
-  - Address privacy concerns by providing clear information about data usage and collection, and obtaining user consent where necessary.
-- Testing and Deployment
-  - Conduct thorough testing of the browser extension to ensure proper functionality, performance, and usability.
-  - Address any bugs or issues identified during testing.
-  - Prepare the extension for deployment on browser extension marketplaces (e.g., Chrome Web Store, Firefox Add-ons).
-- Documentation and Support
-  - Create comprehensive documentation to guide users on how to install, use, and troubleshoot the extension.
-  - Provide support channels (e.g., email, forum) for users to seek assistance or report issues.
+- **Browser Extension:**
+  - Create an extension compatible with browsers (e.g., Chrome, Firefox).
+  - Enable scraping of web page content or user-selected text.
+  - Add a user interface with an activation button.
+
+- **Embeddings Encoder:**
+  - Select an embedding model (e.g., Word2Vec, BERT) and decide on pre-trained or custom embeddings.
+  - Implement encoding to convert content into embeddings.
+
+- **Database:**
+  - Design a database for storing embeddings, metadata (e.g., link references), etc.
+  - Decide on database location (e.g., local storage, cloud) and ensure security.
+
+- **Chatbot and Search:**
+  - Build a chatbot interface for user queries.
+  - Implement similarity search to find related content in the database.
+  - Integrate an external language model (e.g., GPT-4) for query interpretation.
+
+- **User Experience and Privacy:**
+  - Create a user-friendly interface for installation, database management, and chatbot interaction.
+  - Address privacy concerns and obtain user consent for data usage.
+
+- **Testing and Deployment:**
+  - Test the extension for functionality, performance, and usability.
+  - Fix bugs and issues found during testing.
+  - Deploy on browser extension marketplaces (e.g., Chrome Web Store, Firefox Add-ons).
+
+- **Documentation and Support:**
+  - Provide documentation for installation, usage, and troubleshooting.
+  - Offer support channels (e.g., email, forum) for user assistance and issue reporting.
 
 ## User Experience
 
-As a user of the browser extension, you'll have a seamless and intuitive experience that enhances your browsing and information retrieval capabilities:
+Use the extension to efficiently capture, encode, and retrieve web content:
 
-- **Installation and Setup:**
-  - Easily install the extension from your browser's extension marketplace (e.g., Chrome Web Store, Firefox Add-ons).
-  - Upon installation, an extension icon appears in your browser's toolbar, and you may be guided through a brief setup process to configure your preferences.
+- **Installation:**
+  - Install the extension from your browser's extension marketplace (e.g., Chrome Web Store, Firefox Add-ons).
+  - An extension icon appears in your browser's toolbar for easy access.
 
-- **Web Content Encoding:**
-  - While browsing the web, you can use the extension to capture and encode the content of web pages or specific sections you find interesting.
-  - To capture content, simply highlight the desired text or navigate to the page you wish to encode, and click on the extension icon in your browser toolbar.
-  - The extension will encode the selected content using embeddings and store it, along with associated metadata (e.g., link reference), in your personal browsing embeddings database.
+- **Content Encoding:**
+  - Highlight text or navigate to a page, and click the extension icon to encode and store content.
+  - The encoded content and metadata (e.g., link reference) are stored in your database.
 
-- **Chatbot Interaction and Similarity Search:**
-  - The extension features a chatbot that you can interact with to perform similarity searches within your embeddings database.
-  - To initiate a search, simply type your query into the chatbot interface, and the chatbot will perform a similarity search to find content related to your query.
-  - The chatbot will display results that closely match your query, including links to the original web pages for your reference.
+- **Chatbot Search:**
+  - Use the chatbot to search your database for content related to your query.
+  - The chatbot displays matching results and links to original sources.
 
-- **Language Model Interpretation (Optional):**
-  - If you choose to enable language model interpretation, the chatbot can enhance your search results by providing comprehensive interpretations and summaries.
-  - After entering your query, the chatbot will pass the query and similar results to an external language model (e.g., GPT-4) for interpretation.
-  - The chatbot will then present you with a rich response that incorporates the language model's insights and understanding of the content.
+- **Language Model (Optional):**
+  - Enable language model interpretation for comprehensive summaries and insights.
+  - The chatbot passes your query to a language model (e.g., GPT-4) for interpretation.
 
-- **Managing Your Database:**
-  - You have full control over your personal embeddings database, including the ability to view, organize, and delete stored content.
-  - Through the extension's user interface, you can easily manage your database
-    and ensure that it remains relevant and useful to your browsing experience.
-  
+- **Database Management:**
+  - Control, organize, and delete content in your database through the extension's interface.
+
 ## Example Use Case: Art History Student
 
-As an art history student, you are conducting research on Renaissance painters and their masterpieces. The Personal Browsing Embeddings Extension can be a valuable tool to help you record, remember, and find insights from the content you come across during your research.
+As an art history student researching Renaissance painters, use the extension to capture and retrieve information:
 
 ### Recording Research Content
 
-- While browsing various online sources, museum websites, and art databases, you use the extension to capture and encode the content of web pages that contain information about Renaissance painters and their works.
-- To record the content, you highlight relevant text or navigate to pages containing valuable information, and click on the extension icon to encode and store the content in your personal embeddings database.
-- Metadata such as link references, page titles, and dates of access are also stored alongside the embeddings, allowing you to easily reference the original sources.
+- Use the extension to capture content from online sources about Renaissance painters.
+- Store the content and metadata (e.g., link references) in your database.
 
 ### Remembering Details and Gaining Insights
 
-- As you continue your studies, you want to recall specific details about the techniques used by Leonardo da Vinci in his paintings.
-- To find this information, you type a query into the chatbot interface, asking about da Vinci's painting techniques.
-- The chatbot performs a similarity search in your embeddings database and presents you with results that closely match your query, including links to the original sources where you conducted your research.
-- Additionally, you enable language model interpretation to receive a comprehensive summary and interpretation of the content. The chatbot leverages a language model (e.g., GPT-4) to provide you with a rich response that summarizes da Vinci's techniques and offers additional insights that you may have overlooked.
+- Query the chatbot for details about Leonardo da Vinci's painting techniques.
+- Get matching results, original source links, and language model interpretations.
 
 ### Advancing Study Goals
 
-- The extension's ability to quickly retrieve relevant information and provide language model interpretations helps you make connections between various painters, techniques, and art movements.
-- With easy access to your research content and the ability to gain new insights, you can confidently engage in class discussions, write essays, and prepare presentations on Renaissance art.
+- Make connections between painters, techniques, and movements with easy access to information.
+- Use insights for class discussions, essays, and presentations on Renaissance art.
 
-The Personal Browsing Embeddings Extension thus becomes an integral part of your academic journey, enhancing your research capabilities and providing valuable insights to further your study goals.
+The extension supports your academic research and helps you gain valuable insights.
 
 ## Contribute
 
-We invite you to explore the repository, learn more about the extension, and contribute to its development. Thank you for your interest in the Personal Browsing Embeddings Extension!
+Explore the repository, learn about the extension, and contribute to its development. Thank you for your interest in the Personal Browsing Embeddings Extension!
