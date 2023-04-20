@@ -9,6 +9,7 @@ Welcome to the GitHub repository for the Personal Browsing Embeddings Extension!
   - [Optional Features](#optional-features)
 - [Development Steps](#development-steps)
 - [User Experience](#user-experience)
+- [Example Use Case: Art History Student](#example-use-case-art-history-student)
 - [Contribute](#contribute)
 
 ## Objective
@@ -85,7 +86,32 @@ As a user of the browser extension, you'll have a seamless and intuitive experie
 
 - **Managing Your Database:**
   - You have full control over your personal embeddings database, including the ability to view, organize, and delete stored content.
-  - Through the extension's user interface, you can easily manage your database and ensure that it remains relevant and useful to your browsing experience.
+  - Through the extension's user interface, you can easily manage your database
+    and ensure that it remains relevant and useful to your browsing experience.
+  
+## Example Use Case: Art History Student
+
+As an art history student, you are conducting research on Renaissance painters and their masterpieces. The Personal Browsing Embeddings Extension can be a valuable tool to help you record, remember, and find insights from the content you come across during your research.
+
+### Recording Research Content
+
+- While browsing various online sources, museum websites, and art databases, you use the extension to capture and encode the content of web pages that contain information about Renaissance painters and their works.
+- To record the content, you highlight relevant text or navigate to pages containing valuable information, and click on the extension icon to encode and store the content in your personal embeddings database.
+- Metadata such as link references, page titles, and dates of access are also stored alongside the embeddings, allowing you to easily reference the original sources.
+
+### Remembering Details and Gaining Insights
+
+- As you continue your studies, you want to recall specific details about the techniques used by Leonardo da Vinci in his paintings.
+- To find this information, you type a query into the chatbot interface, asking about da Vinci's painting techniques.
+- The chatbot performs a similarity search in your embeddings database and presents you with results that closely match your query, including links to the original sources where you conducted your research.
+- Additionally, you enable language model interpretation to receive a comprehensive summary and interpretation of the content. The chatbot leverages a language model (e.g., GPT-4) to provide you with a rich response that summarizes da Vinci's techniques and offers additional insights that you may have overlooked.
+
+### Advancing Study Goals
+
+- The extension's ability to quickly retrieve relevant information and provide language model interpretations helps you make connections between various painters, techniques, and art movements.
+- With easy access to your research content and the ability to gain new insights, you can confidently engage in class discussions, write essays, and prepare presentations on Renaissance art.
+
+The Personal Browsing Embeddings Extension thus becomes an integral part of your academic journey, enhancing your research capabilities and providing valuable insights to further your study goals.
 
 ## Contribute
 
