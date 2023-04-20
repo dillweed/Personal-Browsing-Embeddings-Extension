@@ -15,17 +15,20 @@ This browser extension enables users to capture and encode web content or select
 
 - Scrape and encode web page content or highlighted sections
 - Store embeddings in a personal database
+- Tag stored embeddings by project or topic
 - Query the embeddings database using a chatbot interface
 - Perform similarity searches within the database
-- Leverage language models for content interpretation
+- Leverage language models (GPT) for content interpretation and discussion
 
 ### Optional Features
 
 - Always-On Encoding: Constantly record all content during normal browsing.
-- History Encoder: Encode all content from browser history.
-- URL Encoder: Scrape and encode content from a URL or list of URLs.
-- Vector Database Options: Choose between local or hosted vector database service.
-- Encoder Options: Use open source or API-based encoder.
+  (Probably a bad idea.)
+- History Encoder: Encode content from links referenced in browser history.
+- URL Encoder: Scrape and encode content from user-specified URL or list of URLs.
+- Vector Database Options: Choose between local or hosted vector database
+  service (pinecone.io).
+- Encoder Options: Use open source (txtai) or API-based encoder (openai).
 - Retrieval Only vs. LLM Interpretation: Choose retrieval only or language model interpretation.
 - Selective Deletion: Delete specific embeddings and associated metadata.
 
